@@ -1,0 +1,30 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "58.0a1"
+    }
+  },
+  "background": {
+      "scripts": ["background.js"]
+  },
+    "icons": {
+    "32": "icons/icon32.png"
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "32" : "icons/icon32.png"
+     },
+    "default_title": "TabBucket\\_/",
+    "default_popup": "tabs.html"
+  },
+  "description": "Save all currently open tabs for later reference.",
+  "homepage_url": "https://github.com/AndrewstheBuilder/TabBucket-Firefox-Extension",
+  "manifest_version": 2,
+  "name": "TabBucket\\_/",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "version": "1.0"
+}
