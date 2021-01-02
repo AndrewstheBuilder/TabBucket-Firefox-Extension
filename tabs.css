@@ -1,5 +1,6 @@
 html, body {
   width: 380px;
+  background-color: rgb(238, 238, 238);
 }
 
 .panel {
@@ -8,6 +9,7 @@ html, body {
 
 .panel-section-header{
   background-color:rgb(119, 53, 53);
+  margin-bottom: 18px;
 }
 
 /* button styles*/
@@ -21,24 +23,26 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 0px 2px 0px 2px;
+  margin: 0px 8px 0px 8px;
   cursor: pointer;
 }
 
 .single-container {
   background-color: rgb(238, 238, 238);
   font-size: 0; /*this gets rid of spacing between the single-container divs*/
+  margin-bottom: 15px;
 }
 
 .dropdown-btn {
-  margin-left: 40px;
+  padding-left: 75px;
+  padding-right: 75px;
   color: rgb(0, 0, 0);
   background-color: rgb(238, 238, 238);
 
 }
 
 .dropdown-btn:hover {
-  background-color: rgb(163, 162, 162);
+  background-color: rgb(224, 224, 224);
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -46,6 +50,8 @@ button {
   display: none;
   background-color: #f1f1f1;
   min-width: 160px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -67,11 +73,12 @@ a:hover {
 .show {display:block;}
 
 .delete-btn {
-  font-weight: 900;
-  font-size: 10px;
+  font-weight: bold;
+  font-size: 14px;
   color: white;
   background-color: red;
   padding: 2px 5px 2px 5px;
+  margin-left: 20px;
   border-radius: 50%;
 }
 

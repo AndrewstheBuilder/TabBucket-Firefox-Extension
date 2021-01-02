@@ -39,6 +39,7 @@ function displayUrls(time, urls, update) {
   let timeTitle = document.createElement('button');
   let deleteBtn = document.createElement('button');
   let container = document.createElement('div');
+  let btnContainer = document.createElement('div');
   let dropMenu = document.createElement('ul');
 
   timeTitle.setAttribute('class','dropdown-btn');
@@ -49,10 +50,13 @@ function displayUrls(time, urls, update) {
   dropMenu.setAttribute('id', time+'-dropdown-menu');
   container.setAttribute('class', 'single-container');
   container.setAttribute('id', time+'-single-container');
+  btnContainer.setAttribute('class', 'btn-container');
+  btnContainer.setAttribute('id', time+'btn-container');
   timeTitle.textContent = time;
-  deleteBtn.textContent = 'X';
-  container.appendChild(deleteBtn);
-  container.appendChild(timeTitle);
+  deleteBtn.textContent = '✕';
+  btnContainer.appendChild(deleteBtn);
+  btnContainer.appendChild(timeTitle);
+  container.appendChild(btnContainer);
 
   for(let i = 0; i < urls.length; i++){
     let a = document.createElement('a');
