@@ -12,7 +12,7 @@ This extension lets users save all current tabs for later and exit. The links to
 #### 2. Click on the highlighted button to see all the tabs you saved at '1/3/2021 10:03:36 AM'. 
    ![2](https://user-images.githubusercontent.com/51387040/103481930-db5d4000-4dab-11eb-8193-53078e9a4a0b.png)
 
-#### 3. You can hover over and click any of these to highlight and open in a new tab.
+#### 3. You can hover over and click any of these saved tabs to open in a new tab.
    ![3](https://user-images.githubusercontent.com/51387040/103481931-dd270380-4dab-11eb-8320-b97f43e42a4b.png)
 
 #### 4. To delete of all the tabs saved at '1/3/2021 10:03:36 AM' click the X to the left. 
