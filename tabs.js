@@ -8,10 +8,16 @@ function getCurrentWindowTabs() {
 
 /*store urls*/
 function storeUrls(time, urls) {
-  let storingUrls = browser.storage.local.set({ [time] : urls });
-  storingUrls.then(() => {
+  browser.storage.local.get(time).then( (val) => {
+    let key = Object.keys(val);
+    if(key.length != 0){
+      throw new Error("You clicked 'Save Tabs' too quickly " +  time + " already exists.");
+    }
+  }).then( () => { 
+  browser.storage.local.set({ [time] : urls }).then(() => {
     displayUrls(time, urls, true);
   }, onError);
+}, onError);
 }
 
 /* generic error handler */

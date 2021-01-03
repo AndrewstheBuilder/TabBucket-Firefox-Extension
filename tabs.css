@@ -1,5 +1,6 @@
 html, body {
   width: 380px;
+  height: 380px;
   background-color: rgb(238, 238, 238);
 }
 
@@ -34,8 +35,8 @@ button {
 }
 
 .dropdown-btn {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 70px;
+  padding-right: 70px;
   color: rgb(0, 0, 0);
   background-color: rgb(238, 238, 238);
 
