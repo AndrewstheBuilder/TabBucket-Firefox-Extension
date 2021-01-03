@@ -9,7 +9,7 @@ This extension lets users save all current tabs for later and exit. The links to
 #### 1. Click 'Save Tabs' to save all currently open tabs.
    ![1](https://user-images.githubusercontent.com/51387040/103481928-d9937c80-4dab-11eb-8501-6164d5daec7e.png)      
 
-#### 2. Click on the highlighted button to see all the tabs you saved. 
+#### 2. Click on the highlighted button to see all the tabs you saved at '1/3/2021 10:03:36 AM'. 
    ![2](https://user-images.githubusercontent.com/51387040/103481930-db5d4000-4dab-11eb-8193-53078e9a4a0b.png)
 
 #### 3. You can hover over and click any of these to highlight and open in a new tab.
