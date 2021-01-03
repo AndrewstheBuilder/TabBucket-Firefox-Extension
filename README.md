@@ -1,4 +1,5 @@
-# TabBucket-Firefox-Extension
+# TabBucket-Firefox-Extension ![icon32](https://user-images.githubusercontent.com/51387040/103483024-70633780-4db2-11eb-8b0a-5211aab5fd52.png)
+
 
 ## What it does
 
