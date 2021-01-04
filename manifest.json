@@ -15,13 +15,13 @@
     "default_icon": {
       "32" : "icons/icon32.png"
      },
-    "default_title": "TabBucket\\_/",
+    "default_title": "TabBucket",
     "default_popup": "tabs.html"
   },
   "description": "Save all currently open tabs for later reference.",
   "homepage_url": "https://github.com/AndrewstheBuilder/TabBucket-Firefox-Extension",
   "manifest_version": 2,
-  "name": "TabBucket\\_/",
+  "name": "TabBucket",
   "permissions": [
     "tabs",
     "storage"
