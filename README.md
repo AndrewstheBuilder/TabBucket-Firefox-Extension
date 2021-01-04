@@ -31,3 +31,4 @@ This extension lets users save all current tabs for later and exit. The links to
 
 #### 5. To delete everything you have ever saved click 'Clear All'.
    ![5](https://user-images.githubusercontent.com/51387040/103481933-e0ba8a80-4dab-11eb-8595-70769f5da099.png)
+test change
