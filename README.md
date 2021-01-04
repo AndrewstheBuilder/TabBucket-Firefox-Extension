@@ -1,4 +1,14 @@
 # TabBucket ![icon32](https://user-images.githubusercontent.com/51387040/103483024-70633780-4db2-11eb-8b0a-5211aab5fd52.png)
+*Get it here: https://addons.mozilla.org/en-US/firefox/addon/tabbucket/*
+
+## How to run if its not on *addons.mozilla.org*
+- Clone the project.
+- Open FireFox type in "about:debugging" in search bar.
+- Click "This FireFox"
+- Click "Load Temporary Add-on" and a new tab should open.
+- Go to the directory where you cloned the project. Find the "manifest.json" file.
+- Click the "manifest.json" file
+- Click "Open"
 
 
 ## What it does
