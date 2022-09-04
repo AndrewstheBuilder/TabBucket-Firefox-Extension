@@ -13,7 +13,7 @@ function storeUrls(time, urls) {
     if(key.length != 0){
       throw new Error("You clicked 'Save Tabs' too quickly " +  time + " already exists.");
     }
-  }).then( () => { 
+  }).then( () => {
   browser.storage.local.set({ [time] : urls }).then(() => {
     displayUrls(time, urls, true);
   }, onError);
@@ -31,7 +31,19 @@ displayStored(); //show everything that is stored when opening extension
 function displayStored() {
   let gettingAllStorageItems = browser.storage.local.get(null);
   gettingAllStorageItems.then((results) => {
-    let urlKeys = Object.keys(results);
+    let urlKeys = Object.keys(results).sort((a,b) => {
+      const aDate = new Date(a);
+      const bDate = new Date(b);
+      // console.log('aDate.getTime()',aDate.getTime());
+      // console.log('bDate.getTime()',bDate.getTime());
+      if(aDate.getTime() < bDate.getTime()){
+        return -1; //sort a before b
+      } else if (aDate.getTime() > bDate.getTime()) {
+        return 1; //sort a after b
+      }
+      return 0;
+    }); //sort keys by time, newest is last item
+    // console.log('urlkeys',urlKeys);
     for (let i = urlKeys.length-1; i >= 0; i --) {
       let curValue = results[urlKeys[i]];
       displayUrls(urlKeys[i], curValue, false);
@@ -75,8 +87,8 @@ function displayUrls(time, urls, update) {
   }
   container.appendChild(dropMenu);
   docFrag.appendChild(container);
-  if(update){ 
-    urlContainer.insertBefore(docFrag, urlContainer.firstChild); 
+  if(update){
+    urlContainer.insertBefore(docFrag, urlContainer.firstChild);
   } else{
     urlContainer.appendChild(docFrag);
   }
