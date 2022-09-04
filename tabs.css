@@ -1,7 +1,7 @@
 html, body {
   width: 380px;
   height: 380px;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(16, 20, 29);
 }
 
 .panel {
@@ -9,16 +9,16 @@ html, body {
 }
 
 .panel-section-header{
-  background-color:rgb(119, 53, 53);
+  background-color: rgb(16, 20, 29);
   margin-bottom: 18px;
 }
 
 /* button styles*/
 button {
-  background-color: rgb(117, 91, 91); /* Green */
+  background-color: rgb(40, 42, 78);
   border: none;
   border-radius: 8px;
-  color: rgb(57, 54, 65);
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -28,8 +28,18 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: rgb(18, 51, 59);
+  box-shadow: 0 12px 10px 0 rgba(0,0,0,0.24), 0 15px 10px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+  background-color: white;
+  color: black;
+}
+
 .single-container {
-  background-color: rgb(238, 238, 238);
+  background-color:rgb(16, 20, 29);
   font-size: 0; /*this gets rid of spacing between the single-container divs*/
   margin-bottom: 15px;
 }
@@ -37,21 +47,21 @@ button {
 .dropdown-btn {
   padding-left: 70px;
   padding-right: 70px;
-  color: rgb(0, 0, 0);
-  background-color: rgb(238, 238, 238);
-
+  color: white;
+  background-color:rgb(16, 20, 29);
 }
 
 .dropdown-btn:hover {
-  background-color: rgb(224, 224, 224);
+  color: white;
+  background-color:rgb(16, 20, 29) ;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-menu {
   display: none;
-  background-color: #f1f1f1;
+  background-color:rgb(16, 20, 29) ;
   min-width: 160px;
-  margin: 0;
+  margin: 5px;
   padding: 0;
   list-style: none;
 }
@@ -59,27 +69,28 @@ button {
 /* Links inside the dropdown */
 a {
   font-size: 16px;
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 a:hover {
-  background-color: rgb(155, 88, 91);
-  color: white;
+  background-color: rgb(16, 20, 29);
+  color: rgb(94, 105, 156);
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
 .delete-btn {
-  font-weight: bold;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bolder;
   font-size: 14px;
   color: white;
   background-color: red;
-  padding: 2px 5px 2px 5px;
-  margin-left: 20px;
+  padding: 2px 6px 2px 5px;
+  margin-left: 10px;
   border-radius: 50%;
 }
 
@@ -87,24 +98,14 @@ a:hover {
   background-color: rgb(248, 83, 83);
 }
 
-#save{
-  color: white;
-  background-color:rgb(155, 88, 91);
-  width: 50%;
+.delete-btn:active {
+  background-color: rgb(0, 104, 0);
 }
 
-#save:hover {
-  background-color: rgb(44, 3, 3);
-  box-shadow: 0 12px 10px 0 rgba(0,0,0,0.24), 0 15px 10px 0 rgba(0,0,0,0.19);
+#save{
+  width: 50%;
 }
 
 #clear{
-  color: white;
-  background-color:rgb(155, 88, 91);
   width: 50%;
-}
-
-#clear:hover {
-  background-color: rgb(44, 3, 3);
-  box-shadow: 0 12px 10px 0 rgba(0,0,0,0.24), 0 15px 10px 0 rgba(0,0,0,0.19);
 }
