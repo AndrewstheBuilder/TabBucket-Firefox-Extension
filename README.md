@@ -29,5 +29,5 @@ This extension lets users save all current tabs for later and exit. The links to
 #### 4. To delete of all the tabs saved at '1/3/2021 10:03:36 AM' click the X to the left. 
    ![4](https://user-images.githubusercontent.com/51387040/103481932-de583080-4dab-11eb-8038-754b92bbbfd7.png)
 
-#### ~~5. To delete everything you have ever saved click 'Clear All'.
-   ![5](https://user-images.githubusercontent.com/51387040/103481933-e0ba8a80-4dab-11eb-8595-70769f5da099.png)~~
+#### ~~5. To delete everything you have ever saved click 'Clear All'.~~
+   ![5](https://user-images.githubusercontent.com/51387040/103481933-e0ba8a80-4dab-11eb-8595-70769f5da099.png)
